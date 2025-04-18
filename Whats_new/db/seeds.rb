@@ -8,13 +8,13 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-#10.times do |i|
-    #User.create!(
-      #email: "user#{i+1}@example.com",       # email único por cada usuario
-      #first_name: "FirstName#{i+1}",          # primer nombre único por cada usuario
-      #last_name: "LastName#{i+1}"             # apellido único por cada usuario
-    #)
-  #end
+10.times do |i|
+    User.create!(
+      email: "user#{i+1}@example.com",       
+      first_name: "FirstName#{i+1}",          
+      last_name: "LastName#{i+1}"             
+    )
+  end
 
   10.times do |i|
     sender = User.all.sample    

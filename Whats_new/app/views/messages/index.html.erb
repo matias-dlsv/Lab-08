@@ -1,0 +1,12 @@
+    <% @messages.each do |message| %>
+      <ul>
+        <li>
+        Chat id: <%= message.chat_id   %><br>
+        Receiver id:<%= message.user_id %><br>
+        Body: <%= message.body%><br>
+        Created at: <%= message.created_at %><br>
+        Updated at: <%= message.updated_at %><br>
+        <%= link_to 'Show', message_path(message) %><br>
+        </li>
+      </ul>
+    <% end %>
