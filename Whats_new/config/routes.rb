@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   #
   get "/home", to: "home#index"
 
-  resources :users, only: [ :index, :show ]
-  resources :chats, only: [ :index, :show ]
-  resources :messages, only: [ :index, :show ]
+  resources :users, only: [ :index, :show,:new, :create]
+  resources :chats, only: [ :index, :show,:new, :create]
+  resources :messages, only: [ :index, :show,:new, :create]
 end

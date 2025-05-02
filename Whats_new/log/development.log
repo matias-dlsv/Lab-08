@@ -3073,3 +3073,2566 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 960ms (Views: 28.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+  [1m[36mUser Load (4.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (1.3ms)[0m  [1m[34mSELECT "chats".* FROM "chats" ORDER BY "chats"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (2.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" ORDER BY "chats"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.6ms)[0m  [1m[34mSELECT "chats".* FROM "chats" ORDER BY "chats"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."chat_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (1.0ms)[0m  [1m[34mSELECT "chats".* FROM "chats" ORDER BY "chats"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."chat_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.7ms)[0m  [1m[34mSELECT "chats".* FROM "chats" ORDER BY "chats"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Pluck (0.5ms)[0m  [1m[34mSELECT "messages"."id" FROM "messages" WHERE "messages"."chat_id" = 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."chat_id" = 1 ORDER BY "messages"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.8ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 3 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."sender_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."receiver_id" = 1 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT 1 OFFSET 1 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."receiver_id" = 2 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."sender_id" = 2 /* loading for pp */ LIMIT 11 /*application='WhatsNew'*/[0m
+  [1m[36mUser Exists? (68.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*application='WhatsNew'*/[0m
+Started GET "/" for 127.0.0.1 at 2025-05-02 13:59:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (5.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='WhatsNew'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/matia/.rbenv/versions/3.2.6/lib/ruby/gems/3.2.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/matia/.rbenv/versions/3.2.6/lib/ruby/gems/3.2.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.5ms | GC: 0.0ms)
+Completed 200 OK in 1934ms (Views: 28.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 13:59:39 -0400
+  
+NoMethodError (undefined method `action_encoding_template' for ChatsController:Class):
+  
+activerecord (8.0.2) lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:108:in `action_encoding_template'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:102:in `encode'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:47:in `set_binary_encoding'
+actionpack (8.0.2) lib/action_dispatch/http/parameters.rb:70:in `path_parameters='
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:908:in `call'
+railties (8.0.2) lib/rails/engine/lazy_route_set.rb:68:in `call'
+rack (3.1.12) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.12) lib/rack/etag.rb:29:in `call'
+rack (3.1.12) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.12) lib/rack/head.rb:15:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/cookies.rb:706:in `call'
+activerecord (8.0.2) lib/active_record/migration.rb:671:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (8.0.2) lib/active_support/callbacks.rb:100:in `run_callbacks'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.2) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.2) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.12) lib/rack/method_override.rb:28:in `call'
+rack (3.1.12) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.12) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (8.0.2) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2025-05-02 13:59:42 -0400
+  
+NoMethodError (undefined method `action_encoding_template' for UsersController:Class):
+  
+activerecord (8.0.2) lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:108:in `action_encoding_template'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:102:in `encode'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:47:in `set_binary_encoding'
+actionpack (8.0.2) lib/action_dispatch/http/parameters.rb:70:in `path_parameters='
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:908:in `call'
+railties (8.0.2) lib/rails/engine/lazy_route_set.rb:68:in `call'
+rack (3.1.12) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.12) lib/rack/etag.rb:29:in `call'
+rack (3.1.12) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.12) lib/rack/head.rb:15:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/cookies.rb:706:in `call'
+activerecord (8.0.2) lib/active_record/migration.rb:671:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (8.0.2) lib/active_support/callbacks.rb:100:in `run_callbacks'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.2) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.2) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.12) lib/rack/method_override.rb:28:in `call'
+rack (3.1.12) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.12) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (8.0.2) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2025-05-02 13:59:43 -0400
+  
+NoMethodError (undefined method `action_encoding_template' for UsersController:Class):
+  
+activerecord (8.0.2) lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:108:in `action_encoding_template'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:102:in `encode'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:47:in `set_binary_encoding'
+actionpack (8.0.2) lib/action_dispatch/http/parameters.rb:70:in `path_parameters='
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:908:in `call'
+railties (8.0.2) lib/rails/engine/lazy_route_set.rb:68:in `call'
+rack (3.1.12) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.12) lib/rack/etag.rb:29:in `call'
+rack (3.1.12) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.12) lib/rack/head.rb:15:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/cookies.rb:706:in `call'
+activerecord (8.0.2) lib/active_record/migration.rb:671:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (8.0.2) lib/active_support/callbacks.rb:100:in `run_callbacks'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.2) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.2) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.12) lib/rack/method_override.rb:28:in `call'
+rack (3.1.12) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.12) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (8.0.2) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/favicon.ico" for 127.0.0.1 at 2025-05-02 13:59:43 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/user" for 127.0.0.1 at 2025-05-02 14:00:12 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+Started GET "/user" for 127.0.0.1 at 2025-05-02 14:00:14 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:00:23 -0400
+  
+NoMethodError (undefined method `action_encoding_template' for UsersController:Class):
+  
+activerecord (8.0.2) lib/active_record/dynamic_matchers.rb:22:in `method_missing'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:108:in `action_encoding_template'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:102:in `encode'
+actionpack (8.0.2) lib/action_dispatch/request/utils.rb:47:in `set_binary_encoding'
+actionpack (8.0.2) lib/action_dispatch/http/parameters.rb:70:in `path_parameters='
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:908:in `call'
+railties (8.0.2) lib/rails/engine/lazy_route_set.rb:68:in `call'
+rack (3.1.12) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.12) lib/rack/etag.rb:29:in `call'
+rack (3.1.12) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.12) lib/rack/head.rb:15:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/cookies.rb:706:in `call'
+activerecord (8.0.2) lib/active_record/migration.rb:671:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (8.0.2) lib/active_support/callbacks.rb:100:in `run_callbacks'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.2) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.2) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.12) lib/rack/method_override.rb:28:in `call'
+rack (3.1.12) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.12) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (8.0.2) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:03:00 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (12.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 51.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 106.2ms | GC: 0.0ms)
+Completed 200 OK in 1449ms (Views: 81.3ms | ActiveRecord: 38.0ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:03:05 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 46.1ms | GC: 0.0ms)
+Completed 200 OK in 943ms (Views: 46.8ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 14:03:07 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (0.8ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:1
+  Rendered chats/index.html.erb within layouts/application (Duration: 15.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.1ms | GC: 0.0ms)
+Completed 200 OK in 847ms (Views: 19.6ms | ActiveRecord: 3.0ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:03:09 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 17.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | GC: 0.0ms)
+Completed 200 OK in 1053ms (Views: 21.5ms | ActiveRecord: 3.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2025-05-02 14:03:11 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | GC: 0.0ms)
+Completed 200 OK in 922ms (Views: 12.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:03:13 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 5.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | GC: 0.0ms)
+Completed 200 OK in 774ms (Views: 8.9ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:04:26 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 17.7ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | GC: 0.2ms)
+Completed 200 OK in 1112ms (Views: 37.1ms | ActiveRecord: 3.1ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:04:29 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 18.4ms | GC: 0.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | GC: 0.7ms)
+Completed 200 OK in 1170ms (Views: 23.8ms | ActiveRecord: 3.0ms (1 query, 0 cached) | GC: 0.9ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2025-05-02 14:04:36 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 5.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | GC: 0.0ms)
+Completed 200 OK in 1072ms (Views: 9.5ms | ActiveRecord: 0.9ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:04:39 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | GC: 0.0ms)
+Completed 200 OK in 1008ms (Views: 10.3ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:04:42 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 5.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | GC: 0.0ms)
+Completed 200 OK in 677ms (Views: 9.0ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:04:45 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 5.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | GC: 0.0ms)
+Completed 200 OK in 890ms (Views: 8.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:06:58 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 21.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 33.3ms | GC: 0.0ms)
+Completed 200 OK in 1119ms (Views: 45.8ms | ActiveRecord: 4.5ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:07:08 -0400
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 6.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 895ms (ActiveRecord: 3.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (Passed nil to the :model argument, expect an object or false)
+Caused by: ArgumentError (Passed nil to the :model argument, expect an object or false)
+
+Information for: ActionView::Template::Error (Passed nil to the :model argument, expect an object or false):
+    1: <%= form_with(model: @user, local: true) do |f| %>
+    2:     <% if @user.errors.any? %>
+    3:       <div id="error_explanation">
+    4:         <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+  
+app/views/users/new.html.erb:1
+
+Information for cause: ArgumentError (Passed nil to the :model argument, expect an object or false):
+  
+app/views/users/new.html.erb:1
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:07:12 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 16.5ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | GC: 0.2ms)
+Completed 200 OK in 877ms (Views: 21.8ms | ActiveRecord: 2.9ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:07:16 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | GC: 0.2ms)
+Completed 200 OK in 940ms (Views: 9.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:08:00 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 7.9ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | GC: 0.2ms)
+Completed 200 OK in 1092ms (Views: 11.5ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2025-05-02 14:08:05 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 6.0ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | GC: 0.2ms)
+Completed 200 OK in 946ms (Views: 10.0ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:08:17 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 8.5ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | GC: 0.2ms)
+Completed 200 OK in 905ms (Views: 11.7ms | ActiveRecord: 0.8ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2025-05-02 14:08:19 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.7ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | GC: 0.2ms)
+Completed 200 OK in 897ms (Views: 6.5ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2025-05-02 14:09:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | GC: 0.2ms)
+Completed 200 OK in 1126ms (Views: 6.4ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2025-05-02 14:09:23 -0400
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | GC: 0.3ms)
+Completed 200 OK in 994ms (Views: 12.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-05-02 14:09:26 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/matia/.rbenv/versions/3.2.6/lib/ruby/gems/3.2.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/matia/.rbenv/versions/3.2.6/lib/ruby/gems/3.2.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 940ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:09:34 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.1ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | GC: 0.2ms)
+Completed 200 OK in 834ms (Views: 9.4ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/usersr" for 127.0.0.1 at 2025-05-02 14:09:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/usersr"):
+  
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:10:04 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | GC: 0.0ms)
+Completed 200 OK in 885ms (Views: 10.0ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:13:34 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 18.6ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | GC: 0.1ms)
+Completed 500 Internal Server Error in 1099ms (ActiveRecord: 3.7ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000020f30>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000020f30>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000020f30>):
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         </li>
+    12:       </ul>
+    13:       <%= link_to 'New', user_path(new) %>
+    14:     <% end %>
+    15:     
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000020f30>):
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:13:41 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3148ms (ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000021278>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000021278>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000021278>):
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         </li>
+    12:       </ul>
+    13:       <%= link_to 'New', user_path(new) %>
+    14:     <% end %>
+    15:     
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000021278>):
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:13:46 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 1148ms (ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000021548>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000021548>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x00000000021548>):
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         </li>
+    12:       </ul>
+    13:       <%= link_to 'New', user_path(new) %>
+    14:     <% end %>
+    15:     
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x00000000021548>):
+  
+app/views/users/index.html.erb:13
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:14:52 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 17.9ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | GC: 0.4ms)
+Completed 500 Internal Server Error in 1026ms (ActiveRecord: 3.8ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x000000000253c8>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x000000000253c8>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x000000000253c8>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'New', user_path(new) %><br>
+    12:         </li>
+    13:       </ul>
+    14:       
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x000000000253c8>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:16:53 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 18.1ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | GC: 0.4ms)
+Completed 500 Internal Server Error in 994ms (ActiveRecord: 3.3ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x000000000292c0>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x000000000292c0>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x000000000292c0>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'New', user_path(new) %><br>
+    12:         </li>
+    13:       </ul>
+    14:       
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x000000000292c0>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:17:53 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 18.9ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 1269ms (ActiveRecord: 3.4ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x0000000002d118>)
+Caused by: NameError (undefined local variable or method `new' for #<ActionView::Base:0x0000000002d118>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new' for #<ActionView::Base:0x0000000002d118>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'New', user_path(new) %><br>
+    12:         </li>
+    13:       </ul>
+    14:       
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new' for #<ActionView::Base:0x0000000002d118>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:19:24 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 17.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 1142ms (ActiveRecord: 3.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `create' for #<ActionView::Base:0x00000000030f48>)
+Caused by: NameError (undefined local variable or method `create' for #<ActionView::Base:0x00000000030f48>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `create' for #<ActionView::Base:0x00000000030f48>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'Create new user', user_path(create) %><br>
+    12:         </li>
+    13:       </ul>
+    14:       
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `create' for #<ActionView::Base:0x00000000030f48>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:20:20 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 19.2ms | GC: 1.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | GC: 1.1ms)
+Completed 500 Internal Server Error in 977ms (ActiveRecord: 3.6ms (1 query, 0 cached) | GC: 1.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `create' for #<ActionView::Base:0x00000000034dc8>)
+Caused by: NameError (undefined local variable or method `create' for #<ActionView::Base:0x00000000034dc8>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `create' for #<ActionView::Base:0x00000000034dc8>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'Create new user', user_path(create) %><br>
+    12:         </li>
+    13:       </ul>
+    14:       
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `create' for #<ActionView::Base:0x00000000034dc8>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:23:19 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 20.7ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 1053ms (ActiveRecord: 5.1ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038c70>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038c70>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038c70>):
+    11:         </li>
+    12:       </ul>
+    13:     <% end %>
+    14:     <%= link_to 'Create new user', new_user_path %>
+    15:     
+  
+app/views/users/index.html.erb:14
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038c70>):
+  
+app/views/users/index.html.erb:14
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:23:23 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 7.8ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | GC: 0.6ms)
+Completed 500 Internal Server Error in 961ms (ActiveRecord: 0.7ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038f90>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038f90>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038f90>):
+    11:         </li>
+    12:       </ul>
+    13:     <% end %>
+    14:     <%= link_to 'Create new user', new_user_path %>
+    15:     
+  
+app/views/users/index.html.erb:14
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000038f90>):
+  
+app/views/users/index.html.erb:14
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:23:40 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 17.6ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | GC: 0.4ms)
+Completed 500 Internal Server Error in 986ms (ActiveRecord: 3.6ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x0000000003cde8>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x0000000003cde8>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x0000000003cde8>):
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Show', user_path(user) %><br>
+    11:         <%= link_to 'Create new user', new_user_path %><br>
+    12:         </li>
+    13:       </ul>
+    14:     <% end %>
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x0000000003cde8>):
+  
+app/views/users/index.html.erb:11
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:25:01 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 18.3ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 1035ms (ActiveRecord: 3.7ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000040cb8>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000040cb8>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000040cb8>):
+     7:         Email:<%= user.email %><br>
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Create new user', new_user_path %>
+    11:         </li>
+    12:       </ul>
+    13:     <% end %>
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000040cb8>):
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:25:39 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 17.0ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | GC: 0.4ms)
+Completed 500 Internal Server Error in 1093ms (ActiveRecord: 3.3ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044bd8>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044bd8>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044bd8>):
+     7:         Email:<%= user.email %><br>
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Create new user', new_user_path %>
+    11:         </li>
+    12:       </ul>
+    13:     <% end %>
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044bd8>):
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:25:45 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 6.9ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.3ms)
+Completed 500 Internal Server Error in 1035ms (ActiveRecord: 0.9ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044f20>)
+Caused by: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044f20>)
+
+Information for: ActionView::Template::Error (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044f20>):
+     7:         Email:<%= user.email %><br>
+     8:         Created at: <%= user.created_at %><br>
+     9:         Updated at: <%= user.updated_at %><br>
+    10:         <%= link_to 'Create new user', new_user_path %>
+    11:         </li>
+    12:       </ul>
+    13:     <% end %>
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+
+Information for cause: NameError (undefined local variable or method `new_user_path' for #<ActionView::Base:0x00000000044f20>):
+  
+app/views/users/index.html.erb:10
+app/views/users/index.html.erb:1
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:26:50 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 16.3ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | GC: 0.3ms)
+Completed 200 OK in 902ms (Views: 32.9ms | ActiveRecord: 3.7ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:34:00 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (37.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:1
+  Rendered users/index.html.erb within layouts/application (Duration: 56.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | GC: 0.0ms)
+Completed 200 OK in 1147ms (Views: 23.6ms | ActiveRecord: 59.0ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:34:48 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 24.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | GC: 0.0ms)
+Completed 200 OK in 997ms (Views: 35.9ms | ActiveRecord: 11.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:34:50 -0400
+Processing by UsersController#new as HTML
+Completed 406 Not Acceptable in 938ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionController::MissingExactTemplate (UsersController#new is missing a template for request formats: text/html):
+  
+actionpack (8.0.2) lib/action_controller/metal/implicit_render.rb:49:in `default_render'
+actionpack (8.0.2) lib/action_controller/metal/basic_implicit_render.rb:9:in `send_action'
+actionpack (8.0.2) lib/abstract_controller/base.rb:226:in `process_action'
+actionpack (8.0.2) lib/action_controller/metal/rendering.rb:193:in `process_action'
+actionpack (8.0.2) lib/abstract_controller/callbacks.rb:261:in `block in process_action'
+activesupport (8.0.2) lib/active_support/callbacks.rb:120:in `block in run_callbacks'
+turbo-rails (2.0.13) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.13) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (8.0.2) lib/active_support/callbacks.rb:129:in `block in run_callbacks'
+actiontext (8.0.2) lib/action_text/rendering.rb:25:in `with_renderer'
+actiontext (8.0.2) lib/action_text/engine.rb:71:in `block (4 levels) in <class:Engine>'
+activesupport (8.0.2) lib/active_support/callbacks.rb:129:in `instance_exec'
+activesupport (8.0.2) lib/active_support/callbacks.rb:129:in `block in run_callbacks'
+activesupport (8.0.2) lib/active_support/callbacks.rb:140:in `run_callbacks'
+actionpack (8.0.2) lib/abstract_controller/callbacks.rb:260:in `process_action'
+actionpack (8.0.2) lib/action_controller/metal/rescue.rb:27:in `process_action'
+actionpack (8.0.2) lib/action_controller/metal/instrumentation.rb:76:in `block in process_action'
+activesupport (8.0.2) lib/active_support/notifications.rb:210:in `block in instrument'
+activesupport (8.0.2) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (8.0.2) lib/active_support/notifications.rb:210:in `instrument'
+actionpack (8.0.2) lib/action_controller/metal/instrumentation.rb:75:in `process_action'
+actionpack (8.0.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (8.0.2) lib/active_record/railties/controller_runtime.rb:39:in `process_action'
+actionpack (8.0.2) lib/abstract_controller/base.rb:163:in `process'
+actionview (8.0.2) lib/action_view/rendering.rb:40:in `process'
+actionpack (8.0.2) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (8.0.2) lib/action_controller/metal.rb:335:in `dispatch'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:67:in `dispatch'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:50:in `serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:53:in `block in serve'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:133:in `block in find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `each'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:126:in `find_routes'
+actionpack (8.0.2) lib/action_dispatch/journey/router.rb:34:in `serve'
+actionpack (8.0.2) lib/action_dispatch/routing/route_set.rb:908:in `call'
+railties (8.0.2) lib/rails/engine/lazy_route_set.rb:68:in `call'
+rack (3.1.12) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.12) lib/rack/etag.rb:29:in `call'
+rack (3.1.12) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.12) lib/rack/head.rb:15:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (8.0.2) lib/action_dispatch/http/content_security_policy.rb:38:in `call'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:274:in `context'
+rack-session (2.1.0) lib/rack/session/abstract/id.rb:268:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/cookies.rb:706:in `call'
+activerecord (8.0.2) lib/active_record/migration.rb:671:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:31:in `block in call'
+activesupport (8.0.2) lib/active_support/callbacks.rb:100:in `run_callbacks'
+actionpack (8.0.2) lib/action_dispatch/middleware/callbacks.rb:30:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:31:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/show_exceptions.rb:32:in `call'
+railties (8.0.2) lib/rails/rack/logger.rb:41:in `call_app'
+railties (8.0.2) lib/rails/rack/logger.rb:29:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/remote_ip.rb:96:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/request_id.rb:34:in `call'
+rack (3.1.12) lib/rack/method_override.rb:28:in `call'
+rack (3.1.12) lib/rack/runtime.rb:24:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (8.0.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/executor.rb:16:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/static.rb:27:in `call'
+rack (3.1.12) lib/rack/sendfile.rb:114:in `call'
+actionpack (8.0.2) lib/action_dispatch/middleware/host_authorization.rb:143:in `call'
+railties (8.0.2) lib/rails/engine.rb:535:in `call'
+puma (6.6.0) lib/puma/configuration.rb:279:in `call'
+puma (6.6.0) lib/puma/request.rb:99:in `block in handle_request'
+puma (6.6.0) lib/puma/thread_pool.rb:390:in `with_force_shutdown'
+puma (6.6.0) lib/puma/request.rb:98:in `handle_request'
+puma (6.6.0) lib/puma/server.rb:472:in `process_client'
+puma (6.6.0) lib/puma/server.rb:254:in `block in run'
+puma (6.6.0) lib/puma/thread_pool.rb:167:in `block in spawn_thread'
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:35:53 -0400
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 7.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | GC: 0.0ms)
+Completed 200 OK in 1020ms (Views: 41.9ms | ActiveRecord: 3.8ms (0 queries, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:36:23 -0400
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 67.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 76.6ms | GC: 0.3ms)
+Completed 200 OK in 1176ms (Views: 93.3ms | ActiveRecord: 3.2ms (0 queries, 0 cached) | GC: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:36:35 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"matias", "last_name"=>"de la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (8.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'medelasotta@miuandes.cl' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Create (18.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "last_name", "created_at", "updated_at") VALUES ('medelasotta@miuandes.cl', 'matias', 'de la sotta', '2025-05-02 18:36:36.996141', '2025-05-02 18:36:36.996141') RETURNING "id" /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 1011ms (ActiveRecord: 30.1ms (2 queries, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:36:37 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (6.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 17.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | GC: 0.0ms)
+Completed 200 OK in 941ms (Views: 16.1ms | ActiveRecord: 6.3ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users/11" for 127.0.0.1 at 2025-05-02 14:36:42 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 11 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 7.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | GC: 0.0ms)
+Completed 200 OK in 918ms (Views: 11.0ms | ActiveRecord: 0.7ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:36:45 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 6.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | GC: 0.0ms)
+Completed 200 OK in 930ms (Views: 10.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:36:47 -0400
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 983ms (Views: 6.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:36:55 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Matías", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:36:55 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Matías", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (5.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 4.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | GC: 0.0ms)
+Completed 200 OK in 1036ms (Views: 12.4ms | ActiveRecord: 7.8ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (4.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | GC: 0.0ms)
+Completed 200 OK in 978ms (Views: 6.8ms | ActiveRecord: 4.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:37:40 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Matías", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (4.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 8.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | GC: 0.3ms)
+Completed 200 OK in 1158ms (Views: 43.5ms | ActiveRecord: 8.2ms (1 query, 0 cached) | GC: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:37:44 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Matías", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (4.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 912ms (Views: 6.5ms | ActiveRecord: 4.4ms (1 query, 0 cached) | GC: 0.8ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:37:51 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (3.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 982ms (Views: 6.4ms | ActiveRecord: 4.0ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:37:54 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"", "last_name"=>"De la sotta", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (4.0ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = '' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 2.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | GC: 0.1ms)
+Completed 200 OK in 973ms (Views: 8.1ms | ActiveRecord: 4.4ms (1 query, 0 cached) | GC: 0.1ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:38:03 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (4.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'medelasotta@miuandes.cl' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.8ms | GC: 0.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | GC: 0.4ms)
+Completed 200 OK in 992ms (Views: 8.4ms | ActiveRecord: 4.7ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:38:14 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"Matías", "last_name"=>"", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (3.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'matais' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "last_name", "created_at", "updated_at") VALUES ('matais', 'Matías', '', '2025-05-02 18:38:15.868788', '2025-05-02 18:38:15.868788') RETURNING "id" /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 962ms (ActiveRecord: 6.3ms (2 queries, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:38:15 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 10.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | GC: 0.0ms)
+Completed 200 OK in 925ms (Views: 15.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users/12" for 127.0.0.1 at 2025-05-02 14:38:20 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 12 LIMIT 1 /*action='show',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 5.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.4ms)
+Completed 200 OK in 1043ms (Views: 10.7ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:38:23 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 6.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | GC: 0.0ms)
+Completed 200 OK in 1012ms (Views: 10.1ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2025-05-02 14:38:25 -0400
+Processing by UsersController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (Duration: 3.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | GC: 0.0ms)
+Completed 200 OK in 1120ms (Views: 8.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2025-05-02 14:38:40 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"first_name"=>"", "last_name"=>"", "email"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Exists? (3.8ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = 'medelasotta@' LIMIT 1 /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "first_name", "last_name", "created_at", "updated_at") VALUES ('medelasotta@', '', '', '2025-05-02 18:38:41.433573', '2025-05-02 18:38:41.433573') RETURNING "id" /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (7.8ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='users'*/[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+Redirected to http://127.0.0.1:3000/users
+Completed 302 Found in 1082ms (ActiveRecord: 12.3ms (2 queries, 0 cached) | GC: 6.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:38:41 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 6.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | GC: 0.0ms)
+Completed 200 OK in 927ms (Views: 9.9ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:57:30 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 18.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 1004ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 31.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass)
+Caused by: NoMethodError (undefined method `each' for nil:NilClass)
+
+Information for: ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <%= link_to 'Add new message', new_message_path %>
+    2:     
+    3:     <% @messages.each do |message| %>
+    4:       <ul>
+    5:         <li>
+    6:         Chat id: <%= message.chat_id   %><br>
+  
+app/views/messages/index.html.erb:3
+
+Information for cause: NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/views/messages/index.html.erb:3
+Started GET "/users" for 127.0.0.1 at 2025-05-02 14:58:41 -0400
+Processing by UsersController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering users/index.html.erb within layouts/application
+  [1m[36mUser Load (48.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='index',application='WhatsNew',controller='users'*/[0m
+  ↳ app/views/users/index.html.erb:2
+  Rendered users/index.html.erb within layouts/application (Duration: 78.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 90.3ms | GC: 0.0ms)
+Completed 200 OK in 1063ms (Views: 30.0ms | ActiveRecord: 76.4ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:59:18 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 8.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 977ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass)
+Caused by: NoMethodError (undefined method `each' for nil:NilClass)
+
+Information for: ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <%= link_to 'Add new message', new_message_path %>
+    2:     <% @messages.each do |message| %>
+    3:       <ul>
+    4:         <li>
+    5:         Chat id: <%= message.chat_id   %><br>
+  
+app/views/messages/index.html.erb:2
+
+Information for cause: NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/views/messages/index.html.erb:2
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:59:47 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 6.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 890ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass)
+Caused by: NoMethodError (undefined method `each' for nil:NilClass)
+
+Information for: ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2:     <% @messages.each do |message| %>
+    3:       <ul>
+    4:         <li>
+    5:         Chat id: <%= message.chat_id   %><br>
+  
+app/views/messages/index.html.erb:2
+
+Information for cause: NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/views/messages/index.html.erb:2
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:59:51 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 1.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | GC: 0.2ms)
+Completed 500 Internal Server Error in 1210ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass)
+Caused by: NoMethodError (undefined method `each' for nil:NilClass)
+
+Information for: ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: 
+    2:     <% @messages.each do |message| %>
+    3:       <ul>
+    4:         <li>
+    5:         Chat id: <%= message.chat_id   %><br>
+  
+app/views/messages/index.html.erb:2
+
+Information for cause: NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/views/messages/index.html.erb:2
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 14:59:56 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  Rendered messages/index.html.erb within layouts/application (Duration: 6.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 963ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass)
+Caused by: NoMethodError (undefined method `each' for nil:NilClass)
+
+Information for: ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1:     <% @messages.each do |message| %>
+    2:       <ul>
+    3:         <li>
+    4:         Chat id: <%= message.chat_id   %><br>
+  
+app/views/messages/index.html.erb:1
+
+Information for cause: NoMethodError (undefined method `each' for nil:NilClass):
+  
+app/views/messages/index.html.erb:1
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:01:13 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (1.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 40.8ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 50.1ms | GC: 0.5ms)
+Completed 200 OK in 1219ms (Views: 48.2ms | ActiveRecord: 21.6ms (1 query, 0 cached) | GC: 1.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:01:25 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 6.3ms | GC: 0.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | GC: 0.1ms)
+Completed 200 OK in 996ms (Views: 9.6ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.1ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:01:29 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:1
+  Rendered messages/index.html.erb within layouts/application (Duration: 8.0ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | GC: 0.2ms)
+Completed 200 OK in 1069ms (Views: 11.7ms | ActiveRecord: 0.7ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:01:36 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 24.1ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 35.3ms | GC: 0.2ms)
+Completed 200 OK in 1300ms (Views: 55.1ms | ActiveRecord: 4.7ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:09:00 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (95.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 181.9ms | GC: 8.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 217.2ms | GC: 8.5ms)
+Completed 200 OK in 1515ms (Views: 104.1ms | ActiveRecord: 141.2ms (1 query, 0 cached) | GC: 18.4ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 15:09:05 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (1.7ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:2
+  Rendered chats/index.html.erb within layouts/application (Duration: 48.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 54.1ms | GC: 0.0ms)
+Completed 200 OK in 980ms (Views: 39.8ms | ActiveRecord: 19.9ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/chats/new" for 127.0.0.1 at 2025-05-02 15:09:12 -0400
+Processing by ChatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  Rendered chats/new.html.erb within layouts/application (Duration: 33.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 1064ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::Template::Error (Passed nil to the :model argument, expect an object or false)
+Caused by: ArgumentError (Passed nil to the :model argument, expect an object or false)
+
+Information for: ActionView::Template::Error (Passed nil to the :model argument, expect an object or false):
+    1: <%= form_with(model: @chat, local: true) do |f| %>
+    2:     <% if @chat.errors.any? %>
+    3:       <div id="error_explanation">
+    4:         <ul>
+  
+app/views/chats/new.html.erb:1
+
+Information for cause: ArgumentError (Passed nil to the :model argument, expect an object or false):
+  
+app/views/chats/new.html.erb:1
+Started GET "/chats/new" for 127.0.0.1 at 2025-05-02 15:10:15 -0400
+Processing by ChatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/new.html.erb:14:in `collect'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/chats/new.html.erb:19:in `collect'
+  Rendered chats/new.html.erb within layouts/application (Duration: 115.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 124.6ms | GC: 0.0ms)
+Completed 200 OK in 1198ms (Views: 136.8ms | ActiveRecord: 9.9ms (2 queries, 1 cached) | GC: 0.0ms)
+
+
+Started POST "/chats" for 127.0.0.1 at 2025-05-02 15:10:24 -0400
+Processing by ChatsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chat"=>{"sender_id"=>"1", "receiver_id"=>"3"}, "commit"=>"Create Chat"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mUser Load (10.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mChat Create (9.2ms)[0m  [1m[32mINSERT INTO "chats" ("sender_id", "receiver_id", "created_at", "updated_at") VALUES (1, 3, '2025-05-02 19:10:25.676495', '2025-05-02 19:10:25.676495') RETURNING "id" /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+Redirected to http://127.0.0.1:3000/chats
+Completed 302 Found in 996ms (ActiveRecord: 22.5ms (3 queries, 0 cached) | GC: 6.5ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 15:10:25 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (1.0ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:2
+  Rendered chats/index.html.erb within layouts/application (Duration: 10.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | GC: 0.0ms)
+Completed 200 OK in 959ms (Views: 13.6ms | ActiveRecord: 1.0ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN /*application='WhatsNew'*/[0m
+  [1m[36mUser Destroy (7.6ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = 13 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='WhatsNew'*/[0m
+  [1m[36mUser Destroy (9.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = 12 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT /*application='WhatsNew'*/[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:14:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='WhatsNew'*/[0m
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (13.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 38.6ms | GC: 0.9ms)
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:14:59 -0400
+  Rendered layout layouts/application.html.erb (Duration: 153.1ms | GC: 0.9ms)
+Completed 200 OK in 2561ms (Views: 170.3ms | ActiveRecord: 24.3ms (1 query, 0 cached) | GC: 2.7ms)
+
+
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 9.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | GC: 0.0ms)
+Completed 200 OK in 998ms (Views: 13.8ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:15:02 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.6ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:19:in `collect'
+  Rendered messages/new.html.erb within layouts/application (Duration: 254.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 257.3ms | GC: 0.0ms)
+Completed 200 OK in 1108ms (Views: 247.6ms | ActiveRecord: 11.2ms (24 queries, 12 cached) | GC: 0.0ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2025-05-02 15:15:23 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"chat_id"=>"1", "user_id"=>"1", "body"=>"h o l a  ? "}, "commit"=>"Create Message"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mChat Load (4.3ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mMessage Create (4.1ms)[0m  [1m[32mINSERT INTO "messages" ("chat_id", "user_id", "body", "created_at", "updated_at") VALUES (1, 1, 'h o l a  ? ', '2025-05-02 19:15:24.843964', '2025-05-02 19:15:24.843964') RETURNING "id" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+Redirected to http://127.0.0.1:3000/messages
+Completed 302 Found in 837ms (ActiveRecord: 10.9ms (3 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:15:24 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 6.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | GC: 0.0ms)
+Completed 200 OK in 924ms (Views: 9.9ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:15:39 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:19:in `collect'
+  Rendered messages/new.html.erb within layouts/application (Duration: 94.4ms | GC: 14.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 96.8ms | GC: 14.2ms)
+Completed 200 OK in 928ms (Views: 91.6ms | ActiveRecord: 6.3ms (24 queries, 12 cached) | GC: 14.2ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 15:15:55 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:2
+  Rendered chats/index.html.erb within layouts/application (Duration: 10.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | GC: 0.4ms)
+Completed 200 OK in 1055ms (Views: 18.2ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:15:58 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 7.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | GC: 0.6ms)
+Completed 200 OK in 1012ms (Views: 12.3ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/messages/11" for 127.0.0.1 at 2025-05-02 15:16:14 -0400
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."id" = 11 LIMIT 1 /*action='show',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering messages/show.html.erb within layouts/application
+  Rendered messages/show.html.erb within layouts/application (Duration: 5.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | GC: 0.0ms)
+Completed 200 OK in 987ms (Views: 9.5ms | ActiveRecord: 0.9ms (1 query, 0 cached) | GC: 0.3ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:16:18 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 7.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | GC: 0.0ms)
+Completed 200 OK in 962ms (Views: 10.7ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:16:20 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.6ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:19:in `collect'
+  Rendered messages/new.html.erb within layouts/application (Duration: 89.1ms | GC: 0.8ms)
+  Rendered layout layouts/application.html.erb (Duration: 92.2ms | GC: 0.8ms)
+Completed 200 OK in 1035ms (Views: 88.0ms | ActiveRecord: 5.6ms (24 queries, 12 cached) | GC: 0.8ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 15:18:36 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:2
+  Rendered chats/index.html.erb within layouts/application (Duration: 29.5ms | GC: 13.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 39.2ms | GC: 15.5ms)
+Completed 200 OK in 1030ms (Views: 52.6ms | ActiveRecord: 3.1ms (1 query, 0 cached) | GC: 22.6ms)
+
+
+Started GET "/chats/new" for 127.0.0.1 at 2025-05-02 15:18:38 -0400
+Processing by ChatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/new.html.erb:14:in `collect'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/chats/new.html.erb:19:in `collect'
+  Rendered chats/new.html.erb within layouts/application (Duration: 51.2ms | GC: 16.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 53.4ms | GC: 16.4ms)
+Completed 200 OK in 881ms (Views: 50.3ms | ActiveRecord: 5.5ms (2 queries, 1 cached) | GC: 19.4ms)
+
+
+Started POST "/chats" for 127.0.0.1 at 2025-05-02 15:18:42 -0400
+Processing by ChatsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chat"=>{"sender_id"=>"1", "receiver_id"=>"1"}, "commit"=>"Create Chat"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/new.html.erb:14:in `collect'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/chats/new.html.erb:19:in `collect'
+  Rendered chats/new.html.erb within layouts/application (Duration: 10.6ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | GC: 0.5ms)
+Completed 200 OK in 897ms (Views: 13.7ms | ActiveRecord: 4.7ms (4 queries, 2 cached) | GC: 1.7ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:18:47 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 17.6ms | GC: 0.3ms)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | GC: 0.3ms)
+Completed 200 OK in 1031ms (Views: 22.0ms | ActiveRecord: 3.3ms (1 query, 0 cached) | GC: 0.6ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:18:49 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  Rendered messages/new.html.erb within layouts/application (Duration: 86.0ms | GC: 1.4ms)
+  Rendered layout layouts/application.html.erb (Duration: 88.2ms | GC: 1.4ms)
+Completed 200 OK in 1077ms (Views: 84.7ms | ActiveRecord: 4.8ms (23 queries, 12 cached) | GC: 1.4ms)
+
+
+Started GET "/chats" for 127.0.0.1 at 2025-05-02 15:19:00 -0400
+Processing by ChatsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/index.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='index',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/index.html.erb:2
+  Rendered chats/index.html.erb within layouts/application (Duration: 6.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | GC: 0.2ms)
+Completed 200 OK in 933ms (Views: 9.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/chats/new" for 127.0.0.1 at 2025-05-02 15:19:02 -0400
+Processing by ChatsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/new.html.erb:14:in `collect'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/chats/new.html.erb:19:in `collect'
+  Rendered chats/new.html.erb within layouts/application (Duration: 10.3ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | GC: 0.2ms)
+Completed 200 OK in 1058ms (Views: 13.5ms | ActiveRecord: 0.5ms (2 queries, 1 cached) | GC: 0.2ms)
+
+
+Started POST "/chats" for 127.0.0.1 at 2025-05-02 15:19:07 -0400
+Processing by ChatsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "chat"=>{"sender_id"=>"11", "receiver_id"=>"11"}, "commit"=>"Create Chat"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 11 LIMIT 1 /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 11 LIMIT 1[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/controllers/chats_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering chats/new.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='create',application='WhatsNew',controller='chats'*/[0m
+  ↳ app/views/chats/new.html.erb:14:in `collect'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/views/chats/new.html.erb:19:in `collect'
+  Rendered chats/new.html.erb within layouts/application (Duration: 7.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | GC: 0.2ms)
+Completed 200 OK in 904ms (Views: 11.1ms | ActiveRecord: 4.5ms (4 queries, 2 cached) | GC: 0.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:19:09 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 6.2ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | GC: 0.7ms)
+Completed 200 OK in 962ms (Views: 11.1ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.7ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:19:44 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  Rendered messages/new.html.erb within layouts/application (Duration: 77.9ms | GC: 0.6ms)
+  Rendered layout layouts/application.html.erb (Duration: 80.2ms | GC: 0.6ms)
+Completed 200 OK in 1214ms (Views: 76.9ms | ActiveRecord: 4.8ms (23 queries, 12 cached) | GC: 0.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:21:27 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 5.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | GC: 0.0ms)
+Completed 200 OK in 1015ms (Views: 10.3ms | ActiveRecord: 0.5ms (1 query, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/messages/11" for 127.0.0.1 at 2025-05-02 15:21:36 -0400
+Processing by MessagesController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."id" = 11 LIMIT 1 /*action='show',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:7:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering messages/show.html.erb within layouts/application
+  Rendered messages/show.html.erb within layouts/application (Duration: 7.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | GC: 0.0ms)
+Completed 200 OK in 1008ms (Views: 13.0ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.8ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:21:39 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 7.0ms | GC: 0.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | GC: 0.5ms)
+Completed 200 OK in 1000ms (Views: 11.6ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.5ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:21:41 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.5ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  Rendered messages/new.html.erb within layouts/application (Duration: 88.1ms | GC: 1.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 90.3ms | GC: 1.1ms)
+Completed 200 OK in 1086ms (Views: 86.5ms | ActiveRecord: 5.2ms (23 queries, 12 cached) | GC: 1.5ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2025-05-02 15:21:54 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"chat_id"=>"10", "body"=>"hola"}, "commit"=>"Create Message"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mChat Load (4.0ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 10 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  Rendered messages/new.html.erb within layouts/application (Duration: 98.1ms | GC: 1.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 100.7ms | GC: 1.1ms)
+Completed 200 OK in 1096ms (Views: 96.7ms | ActiveRecord: 10.0ms (24 queries, 12 cached) | GC: 1.8ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2025-05-02 15:22:03 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"chat_id"=>"10", "body"=>"hola"}, "commit"=>"Create Message"}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mChat Load (1.2ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 10 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:19:in `collect'
+  Rendered messages/new.html.erb within layouts/application (Duration: 102.9ms | GC: 7.5ms)
+  Rendered layout layouts/application.html.erb (Duration: 109.3ms | GC: 7.5ms)
+Completed 200 OK in 1151ms (Views: 126.5ms | ActiveRecord: 24.0ms (25 queries, 12 cached) | GC: 7.5ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2025-05-02 15:25:46 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"chat_id"=>"10", "body"=>"hola"}, "commit"=>"Create Message"}
+  [1m[36mChat Load (0.6ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 10 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mCACHE Chat Load (0.0ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 10 LIMIT 1[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "messages" ("chat_id", "user_id", "body", "created_at", "updated_at") VALUES (10, 4, 'hola', '2025-05-02 19:25:48.204416', '2025-05-02 19:25:48.204416') RETURNING "id" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+Redirected to http://127.0.0.1:3000/messages
+Completed 302 Found in 1135ms (ActiveRecord: 14.9ms (4 queries, 1 cached) | GC: 1.6ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:25:48 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 11.4ms | GC: 0.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 18.9ms | GC: 0.2ms)
+Completed 200 OK in 1008ms (Views: 34.9ms | ActiveRecord: 0.4ms (1 query, 0 cached) | GC: 0.4ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:25:50 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:19:in `collect'
+  Rendered messages/new.html.erb within layouts/application (Duration: 99.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 101.8ms | GC: 0.0ms)
+Completed 200 OK in 1065ms (Views: 97.3ms | ActiveRecord: 6.1ms (24 queries, 12 cached) | GC: 0.0ms)
+
+
+Started GET "/messages/new" for 127.0.0.1 at 2025-05-02 15:26:06 -0400
+Processing by MessagesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/new.html.erb within layouts/application
+  [1m[36mChat Load (0.4ms)[0m  [1m[34mSELECT "chats".* FROM "chats" /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14:in `collect'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 6 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 9 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 10 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 5 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 7 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*action='new',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 2 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 4 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  ↳ app/views/messages/new.html.erb:14
+  Rendered messages/new.html.erb within layouts/application (Duration: 205.8ms | GC: 15.1ms)
+  Rendered layout layouts/application.html.erb (Duration: 214.3ms | GC: 15.1ms)
+Completed 200 OK in 1428ms (Views: 219.7ms | ActiveRecord: 17.3ms (23 queries, 12 cached) | GC: 15.1ms)
+
+
+Started POST "/messages" for 127.0.0.1 at 2025-05-02 15:26:12 -0400
+Processing by MessagesController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "message"=>{"chat_id"=>"1", "body"=>"hola"}, "commit"=>"Create Message"}
+  [1m[36mChat Load (0.6ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 1 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:16:in `create'
+  [1m[36mCACHE Chat Load (0.0ms)[0m  [1m[34mSELECT "chats".* FROM "chats" WHERE "chats"."id" = 1 LIMIT 1[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 8 LIMIT 1 /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mMessage Create (0.5ms)[0m  [1m[32mINSERT INTO "messages" ("chat_id", "user_id", "body", "created_at", "updated_at") VALUES (1, 8, 'hola', '2025-05-02 19:26:13.413412', '2025-05-02 19:26:13.413412') RETURNING "id" /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT /*action='create',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/controllers/messages_controller.rb:18:in `create'
+Redirected to http://127.0.0.1:3000/messages
+Completed 302 Found in 918ms (ActiveRecord: 6.2ms (4 queries, 1 cached) | GC: 0.5ms)
+
+
+Started GET "/messages" for 127.0.0.1 at 2025-05-02 15:26:13 -0400
+Processing by MessagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering messages/index.html.erb within layouts/application
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" /*action='index',application='WhatsNew',controller='messages'*/[0m
+  ↳ app/views/messages/index.html.erb:2
+  Rendered messages/index.html.erb within layouts/application (Duration: 10.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | GC: 0.0ms)
+Completed 200 OK in 919ms (Views: 14.5ms | ActiveRecord: 0.6ms (1 query, 0 cached) | GC: 0.2ms)
+
+
+  [1m[36mMessage Load (1.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='WhatsNew'*/[0m
+  [1m[36mMessage Destroy (9.8ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = 13 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='WhatsNew'*/[0m
+  [1m[36mMessage Destroy (1.9ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = 12 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mCOMMIT /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN /*application='WhatsNew'*/[0m
+  [1m[36mMessage Destroy (2.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = 11 /*application='WhatsNew'*/[0m
+  [1m[36mTRANSACTION (7.0ms)[0m  [1m[35mCOMMIT /*application='WhatsNew'*/[0m
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT 1 /*application='WhatsNew'*/[0m
