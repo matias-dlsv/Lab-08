@@ -6,7 +6,9 @@
         Receiver id:<%= chat.receiver_id  %><br>
         Created at: <%= chat.created_at %><br>
         Updated at: <%= chat.updated_at %><br>
-        <%= link_to 'Show', chat_path(chat) %><br>
+        <%= link_to 'Show', chat_path(chat) %>
+        <%= link_to 'Edit', edit_chat_path(chat) %><br>
+
         </li>
       </ul>
     <% end %>

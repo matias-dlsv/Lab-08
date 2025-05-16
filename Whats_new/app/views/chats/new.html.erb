@@ -1,26 +1,3 @@
-<%= form_with(model: @chat, local: true) do |f| %>
-    <% if @chat.errors.any? %>
-      <div id="error_explanation">
-        <ul>
-          <% @chat.errors.full_messages.each do |message| %>
-            <li><%= message %></li>
-          <% end %>
-        </ul>
-      </div>
-    <% end %>
-  
-    <div>
-      <%= f.label :sender_id %>
-      <%= f.select :sender_id, User.all.collect { |user| [user.first_name, user.id] }, prompt: "Select Sender" %>
-    </div>
-  
-    <div>
-      <%= f.label :receiver_id %>
-      <%= f.select :receiver_id, User.all.collect { |user| [user.first_name, user.id] }, prompt: "Select Receiver" %>
-    </div>
-  
-    <div>
-      <%= f.submit "Create Chat" %>
-    </div>
-  <% end %>
-  
+<h1>New User</h1>
+<%= render 'form', user: @user %>
+<%= link_to 'Back', user_path %>

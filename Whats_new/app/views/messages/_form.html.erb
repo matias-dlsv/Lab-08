@@ -1,0 +1,39 @@
+<%= form_with model: @message, local: true do |form| %>
+  <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@message.errors.count, "error") %> Cant save the message:</h2>
+      <ul>
+        <% @message.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :chat_id, "Chat" %><br>
+    <%= form.select :chat_id,
+          Chat.all.map { |chat|
+            ["#{chat.sender.id} & #{chat.receiver.id}", chat.id]
+          },
+          { prompt: "Select a chat" } %>
+  </div>
+
+  <div class="field">
+    <%= form.label :user_id, "User" %><br>
+    <%= form.select :user_id,
+          User.all.map { |u|
+            ["#{u.id}", u.id]
+          },
+          { prompt: "Select an User" } %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body, "Message" %><br>
+    <%= form.text_area :body, rows: 5 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit%>
+  </div>
+<% end %>

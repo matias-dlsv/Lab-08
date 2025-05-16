@@ -5,6 +5,8 @@ class MessagesController < ApplicationController
 
     def show
       @message = Message.find(params[:id])
+      @user = @message.user
+      @chat = @message.chat
     end
 
     def new
@@ -22,6 +24,18 @@ class MessagesController < ApplicationController
       end
     end
 
+    def edit
+      @message = Message.find(params[:id])
+    end
+    def update
+    @message = Message.find(params[:id])
+    if @message.update(message_params)
+      redirect_to @message, notice: "Message updated correctly."
+    else
+      render :edit
+    end
+  end
+      
     private
 
     def message_params

@@ -8,3 +8,36 @@
 <p><strong>Updated at:</strong> <%= @user.updated_at %></p>
 
 <%= link_to 'Back', users_path %>
+<%= link_to 'Edit', edit_user_path(@user) %>
+
+<h2>Chats where user participates</h2>
+<%
+  all_chats = @s_chats + @r_chats
+%>
+<% if all_chats.any? %>
+  <ul>
+    <% all_chats.each do |chat| %>
+      <li>
+        <%= link_to chat_path(chat) do %>
+          Chat <%= chat.id %>: <%= chat.sender.id %> => <%= chat.receiver.id %>
+        <% end %>
+
+        <% user_msgs = @messages.select { |m| m.chat_id == chat.id }%>
+        <% if user_msgs.any? %>
+          <ul class="chat-messages">
+            <% user_msgs.each do |msg| %>
+              <li>
+                <%= l(msg.created_at, format: :short) %> <%= msg.body %>
+              </li>
+            <% end %>
+          </ul>
+        <% else %>
+          <p><em>No messages from this user in this chat.</em></p>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>This user don’t have any chat.</p>
+<% end %>
+

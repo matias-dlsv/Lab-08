@@ -7,7 +7,8 @@
         Body: <%= message.body%><br>
         Created at: <%= message.created_at %><br>
         Updated at: <%= message.updated_at %><br>
-        <%= link_to 'Show', message_path(message) %><br>
+        <%= link_to 'Show', message_path(message) %>
+        <%= link_to 'Edit', edit_message_path(message) %><br>
         </li>
       </ul>
     <% end %>

@@ -1,7 +1,32 @@
 <h1>chat Details</h1>
 
-<p><strong>Sender id:</strong> <%= @chat.sender_id %></p>
+<p><strong>Users id:</strong> <%= @chat.sender_id %></p>
 <p><strong>Receiver id:</strong> <%= @chat.receiver_id%></p>
 <p><strong>Created at:</strong> <%= @chat.created_at %></p>
 <p><strong>Updated at:</strong> <%= @chat.updated_at %></p>
+
+
 <%= link_to 'Back', chats_path %>
+<%= link_to 'Edit', edit_chat_path(@chat) %>
+
+<h2>Users of the chat</h2>
+
+<%= link_to("User #{@sender.id}", user_path(@sender)) %>
+ and 
+ <%= link_to("User #{@receiver.id}", user_path(@receiver)) %>
+
+
+
+<h2>Messages</h2>
+<% if @messages.any? %>
+  <ul>
+    <% @messages.each do |message| %>
+      <li>
+      Message of User<%= message.user_id %>: <%= message.body %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p><em>No messages in this chat.</em></p>
+<% end %>
+

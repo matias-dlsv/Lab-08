@@ -1,4 +1,4 @@
-<h1>message Details</h1>
+<h1>Message Details</h1>
 
 <p><strong>Chat id:</strong> <%= @message.chat_id  %></p>
 <p><strong>User id:</strong> <%= @message.user_id%></p>
@@ -6,3 +6,19 @@
 <p><strong>Created at:</strong> <%= @message.created_at %></p>
 <p><strong>Updated at:</strong> <%= @message.updated_at %></p>
 <%= link_to 'Back', messages_path %>
+<%= link_to 'Edit', edit_message_path(@message) %>
+
+
+<h2>User Details</h2>
+<p><strong>ID:</strong> <%= @user.id %></p>
+<p><strong>First name:</strong> <%= @user.first_name %></p>
+<p><strong>Last Name:</strong> <%= @user.last_name %></p>
+<p><strong>Email:</strong> <%= @user.email %></p>
+<p><strong>Created at:</strong> <%= @user.created_at %></p>
+<p><strong>Updated at:</strong> <%= @user.updated_at %></p>
+
+<h2>Chat Details</h2>
+<p><strong>Users id:</strong> <%= @chat.sender_id %></p>
+<p><strong>Receiver id:</strong> <%= @chat.receiver_id%></p>
+<p><strong>Created at:</strong> <%= @chat.created_at %></p>
+<p><strong>Updated at:</strong> <%= @chat.updated_at %></p>
