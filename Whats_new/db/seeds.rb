@@ -11,6 +11,7 @@ users = []
     email: "user#{i + 1}@example.com",
     first_name: "First#{i + 1}",
     last_name: "Last#{i + 1}",
+    password: "123456"
   )
 end
 
