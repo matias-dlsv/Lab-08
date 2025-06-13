@@ -1,14 +1,14 @@
-<%= link_to 'Add new chat', new_chat_path %>    
-    <% @chats.each do |chat| %>
-      <ul>
-        <li>
-        Sender id: <%= chat.sender_id %><br>
-        Receiver id:<%= chat.receiver_id  %><br>
-        Created at: <%= chat.created_at %><br>
-        Updated at: <%= chat.updated_at %><br>
-        <%= link_to 'Show', chat_path(chat) %>
-        <%= link_to 'Edit', edit_chat_path(chat) %><br>
+<h1>Chats</h1>
 
-        </li>
-      </ul>
-    <% end %>
+<%= link_to 'Add new chat', new_chat_path %>
+
+<ul>
+  <% @chats.each do |chat| %>
+    <li>
+      Chat with: <%= chat.other_participant(current_user).first_name %><br>
+
+      <%= link_to 'Show', chat_path(chat) %> |
+      <%= link_to 'Edit', edit_chat_path(chat) %>
+    </li>
+  <% end %>
+</ul>

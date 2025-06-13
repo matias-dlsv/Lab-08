@@ -14,7 +14,7 @@
     <%= form.label :sender_id, "Sender" %><br>
     <%= form.select :sender_id,
           User.all.map { |user|
-            ["#{user.id}", user.id]
+            ["#{user.first_name} #{user.last_name}", user.id]
           },
           { prompt: "Select a user" } %>
   </div>
@@ -23,7 +23,7 @@
     <%= form.label :receiver_id, "Receiver" %><br>
     <%= form.select :receiver_id,
           User.all.map { |user|
-            ["#{user.id}", user.id]
+            ["#{user.first_name} #{user.last_name}", user.id]
           },
           { prompt: "Select a user" } %>
   </div>

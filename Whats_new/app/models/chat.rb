@@ -5,7 +5,14 @@ class Chat < ApplicationRecord
     validates :sender_id, presence: true
     validates :receiver_id, presence: true
     validate :sender_and_receiver_are_different
+    
+    scope :for_user, ->(user) {
+    where(sender_id: user.id).or(where(receiver_id: user.id))
+    }
 
+    def other_participant(current_user)
+        sender == current_user ? receiver : sender
+    end
     private
 
     def sender_and_receiver_are_different
@@ -13,4 +20,6 @@ class Chat < ApplicationRecord
         errors.add(:receiver_id, "must be different from sender")
         end
     end
+
+    
 end

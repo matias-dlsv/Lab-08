@@ -1,14 +1,18 @@
 class ChatsController < ApplicationController
   before_action :authenticate_user!
+
   def index
-    @chats = Chat.all
+    @chats = Chat.for_user(current_user)
+                 .includes(:sender, :receiver)
+                 .order(updated_at: :desc)
   end
 
   def show
     @chat = Chat.find(params[:id])
-    @messages = @chat.messages.order(created_at: :asc)
+    authorize! :read, @chat    
     @sender = @chat.sender
-    @receiver = @chat.receiver
+    @receiver = @chat.receiver                
+    @messages = @chat.messages.order(created_at: :asc)
   end
 
   def new
@@ -36,9 +40,11 @@ class ChatsController < ApplicationController
       render :edit
     end
   end
+  
 
 private
 def chat_params
-    params.require(:chat).permit(:chat_id, :user_id, :body) 
-  end
+  params.require(:chat).permit(:sender_id, :receiver_id)
+end
+
 end
